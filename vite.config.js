@@ -9,7 +9,7 @@ const manifestForPlugIn = {
   manifest:{
     prefer_related_applications: false,
     name:"IEEE APP",
-    short_name:"react-vite-app",
+    short_name:"IEE APP",
     description:"I am a simple vite app",
     icons:[{
       src: '/android-chrome-192-192.png',
