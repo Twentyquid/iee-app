@@ -7,6 +7,7 @@ const manifestForPlugIn = {
   registerType:'prompt',
   includeAssests:['favicon.ico', "apple-touc-icon.png", "masked-icon.svg"],
   manifest:{
+    prefer_related_applications: false,
     name:"IEEE APP",
     short_name:"react-vite-app",
     description:"I am a simple vite app",
@@ -32,6 +33,20 @@ const manifestForPlugIn = {
       sizes:'512x512',
       type:'image/png',
 
+    }
+  ],
+  screenshots: [
+    {
+      src: "/screenshot-narrow.png",
+      type: "image/png",
+      form_factor: "narrow",
+      sizes: "462x812"
+    },
+    {
+      src: "/screenshot-wide.png",
+      type: "image/png",
+      form_factor: "wide",
+      sizes: "1610x927"
     }
   ],
   theme_color:'#171717',
