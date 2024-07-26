@@ -59,7 +59,9 @@ const manifestForPlugIn = {
 }
 
 export default defineConfig({
-  plugins: [react(), VitePWA(manifestForPlugIn)],
+  plugins: [react(), VitePWA(manifestForPlugIn, {
+    injectRegister: 'script'
+  })],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
