@@ -9,7 +9,7 @@ function NavigationRender() {
   const { user } = useContext(AuthContext);
   return user.authenticated ? (
     <Routes>
-      <Route path="/" element={<Dashboard />} />
+      <Route path="*" element={<Dashboard />} />
       <Route path="/account" element={<Account />} />
     </Routes>
   ) : (

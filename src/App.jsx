@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import { BrowserRouter } from "react-router-dom";
 import AuthWrapper from "./auth/AuthWrapper";
+import "remixicon/fonts/remixicon.css";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,7 +27,7 @@ function App() {
     <>
       <BrowserRouter>
         <div>
-          <div className="max-w-[640px] h-screen bg-slate-50 mx-auto">
+          <div className="max-w-[640px] h-screen bg-slate-50 mx-auto flex flex-col">
             {showModal ? (
               <div>
                 <button
