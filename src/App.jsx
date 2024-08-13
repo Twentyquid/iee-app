@@ -27,7 +27,7 @@ function App() {
     <>
       <BrowserRouter>
         <div>
-          <div className="max-w-[640px] h-screen bg-slate-50 mx-auto flex flex-col">
+          <div className="max-w-[640px] h-screen bg-slate-50 mx-auto flex flex-col relative">
             {showModal ? (
               <div>
                 <button

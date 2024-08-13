@@ -18,6 +18,9 @@ function MapPage() {
               <AdvancedMarker
                 position={{ lat: 9.993661145062388, lng: 76.35812308207957 }}
               ></AdvancedMarker>
+              <AdvancedMarker
+                position={{ lat: 9.993693, lng: 76.358732 }}
+              ></AdvancedMarker>
             </Map>
           </APIProvider>
         </div>

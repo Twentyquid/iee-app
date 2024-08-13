@@ -6,11 +6,13 @@ import BottomNav from "@/components/BottomNav";
 function Dashboard() {
   return (
     <>
-      <Routes>
-        <Route path="/" element={<EventsPage />} />
-        <Route path="/map/" element={<MapPage />} />
-      </Routes>
-      <BottomNav />
+      <div className="">
+        <Routes>
+          <Route path="/" element={<EventsPage />} />
+          <Route path="/map/" element={<MapPage />} />
+        </Routes>
+        <BottomNav />
+      </div>
     </>
   );
 }
