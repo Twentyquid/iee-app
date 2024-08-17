@@ -4,7 +4,6 @@ function MapPage() {
   return (
     <>
       <div>
-        <h1 className="text-xl">Dashboard</h1>
         <div className="w-full h-full overflow-hidden">
           <APIProvider apiKey={import.meta.env.VITE_API_KEY}>
             <Map
