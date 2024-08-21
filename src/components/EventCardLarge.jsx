@@ -1,9 +1,9 @@
 import eventImage from "@/assets/event.jpg";
 
-function EventCard() {
+function EventCardLarge() {
   return (
     <>
-      <div className="min-w-[358px] bg-red-100 rounded-2xl px-4 py-3">
+      <div className="w-full bg-red-100 rounded-2xl px-4 py-3">
         <div className="h-[100px] w-full overflow-hidden">
           <img className="object-cover w-full h-full" src={eventImage} alt="" />
         </div>
@@ -34,4 +34,4 @@ function EventCard() {
   );
 }
 
-export default EventCard;
+export default EventCardLarge;

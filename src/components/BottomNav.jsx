@@ -20,11 +20,11 @@ function BottomNav() {
               <i className="ri-calendar-event-line"></i>
             </div>
           </Link>
-          <Link to={"#"}>
+          {/* <Link to={"#"}>
             <div>
               <i className="ri-ticket-line"></i>
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

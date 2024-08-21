@@ -5,8 +5,8 @@ function EventsPage() {
   return (
     <>
       <div className="w-full">
+        <h3 className="text-xl">Map</h3>
         <div className="overflow-hidden rounded-lg my-4 shadow-md">
-          <h3 className="text-xl">Map</h3>
           <APIProvider apiKey={import.meta.env.VITE_API_KEY}>
             <Map
               style={{ width: "640px", height: "30vh" }}
